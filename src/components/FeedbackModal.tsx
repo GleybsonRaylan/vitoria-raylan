@@ -10,8 +10,8 @@ interface FeedbackModalProps {
 }
 
 // Placeholder images - you can replace these URLs with your own photos
-const CORRECT_IMAGE = "/public/certa.jpg";
-const WRONG_IMAGE = "/public/errada.jpg";
+const CORRECT_IMAGE = "/certo.jpg";
+const WRONG_IMAGE = "/errado.jpg";
 
 export const FeedbackModal = ({
   isCorrect,
